@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to left, #866e92, #e9dced);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.pinnell_takehomeassignment2.MainMenuController">
+   <children>
+      <Rectangle arcWidth="5.0" height="69.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.37719297409057617" green="0.37719297409057617" blue="0.37719297409057617" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+       <Polygon fill="#777777" layoutX="146.0" layoutY="251.0" points="66.77778625488281, -166.0, 235.66665649414062, -166.0, -14.888870239257812, 149.00003051757812, -180.33334350585938, 149.00003051757812" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcWidth="5.0" fill="WHITE" height="22.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Polygon fill="#883fc4" layoutX="505.0" layoutY="251.0" points="-74.33331298828125, -166.0, -59.333343505859375, -166.0, -326.0, 150.00003051757812, -340.3333435058594, 150.00003051757812" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#3b5973" layoutX="642.0" layoutY="437.0" points="-42.00006103515625, -210.99998474121094, -42.000030517578125, -166.0, -153.55557250976562, -35.999969482421875, -196.33334350585938, -35.999969482421875" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#1f93ff00" layoutX="123.0" layoutY="230.0" radius="167.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#1f93ff00" layoutX="123.0" layoutY="231.0" radius="144.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="20.0" />
+      <Circle fill="#1f93ff00" layoutX="123.0" layoutY="232.0" radius="117.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fill="#1f93ff00" layoutX="123.0" layoutY="232.0" radius="108.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" />
+      <Text fill="WHITE" layoutX="139.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-scale-x: 1.4; -fx-scale-y: 1.5;" text="MAIN MENU" wrappingWidth="458.2612991333008">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Text>
+       <VBox layoutX="44.0" layoutY="123.0" prefHeight="164.0" prefWidth="207.0" spacing="10.0" style="-fx-rotate: -52;">
+           <children>
+               <RadioButton fx:id="mode1Radio" mnemonicParsing="false" prefHeight="46.0" prefWidth="142.0" text="EASY">
+                   <font>
+                       <Font name="Comic Sans MS Bold" size="27.0" />
+                   </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="modeGroup" />
+               </toggleGroup>
+               </RadioButton>
+               <RadioButton fx:id="mode2Radio" mnemonicParsing="false" text="MEDIUM" toggleGroup="$modeGroup">
+                   <font>
+                       <Font name="System Bold" size="27.0" />
+                   </font>
+               </RadioButton>
+               <RadioButton fx:id="mode3Radio" mnemonicParsing="false" text="HARD" toggleGroup="$modeGroup">
+                   <font>
+                       <Font name="Jokerman" size="26.0" />
+                   </font>
+               </RadioButton>
+           </children>
+       </VBox>
+      <Text layoutX="283.0" layoutY="145.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" text="CHOOSE MODE" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="-38.0" layoutY="372.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" style="-fx-scale-x: 0.7;" text="DIFFICULTY SELECT" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="42.0" />
+         </font>
+      </Text>
+      <Button layoutX="384.0" layoutY="329.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="124.0" style="-fx-background-color: linear-gradient(to right, #866e92, #e9dced); -fx-border-color: white; -fx-border-width: 3;" text="CLOSE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+       <VBox layoutX="321.0" layoutY="167.0" prefHeight="152.0" prefWidth="268.0" spacing="10.0">
+           <children>
+               <RadioButton fx:id="easyRadio" mnemonicParsing="false" prefHeight="46.0" prefWidth="207.0" text="NUMBERS" toggleGroup="$modeGroup">
+                   <font>
+                       <Font name="System Bold" size="27.0" />
+                   </font>
+               </RadioButton>
+               <RadioButton fx:id="mediumRadio" mnemonicParsing="false" text="WORDS" toggleGroup="$modeGroup">
+                   <font>
+                       <Font name="System Bold" size="27.0" />
+                   </font>
+               </RadioButton>
+               <RadioButton fx:id="hardRadio" mnemonicParsing="false" text="CONSOLE ERAS" toggleGroup="$modeGroup">
+                   <font>
+                       <Font name="System Bold" size="27.0" />
+                   </font>
+               </RadioButton>
+           </children>
+       </VBox>
+   </children>
+</AnchorPane>

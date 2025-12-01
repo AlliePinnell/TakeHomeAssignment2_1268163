@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="731.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.pinnell_takehomeassignment2.DragAndDropController">
+   <children>
+       <Button text="Back to Main Menu"
+               layoutX="20"
+               layoutY="20"
+               onAction="#openMainMenu"/>
+      <Label layoutX="468.0" layoutY="22.0" prefHeight="18.0" prefWidth="63.0" text="Score">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" alignment="CENTER" layoutX="429.0" layoutY="53.0" prefHeight="62.0" prefWidth="142.0" style="-fx-border-color: black; -fx-border-width: 1px;" text="2000">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="22.0" prefHeight="18.0" prefWidth="63.0" text="Time">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="timer" alignment="CENTER" layoutX="34.0" layoutY="53.0" prefHeight="62.0" prefWidth="142.0" style="-fx-border-color: black; -fx-border-width: 1px;" text="20">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Pane fx:id="pane1" layoutX="33.0" layoutY="232.0" prefHeight="302.0" prefWidth="132.0" style="-fx-border-width: 2px; -fx-border-color: black;" />
+      <Label alignment="CENTER" layoutX="52.0" layoutY="594.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="166.0" layoutY="594.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="283.0" layoutY="594.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="395.0" layoutY="594.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="52.0" layoutY="658.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="166.0" layoutY="658.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="283.0" layoutY="658.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="395.0" layoutY="658.0" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black; -fx-border-width: 1px; -fx-background-color: lightgrey;" text="ABCDEFG" textFill="#e80808">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Pane fx:id="pane2" layoutX="197.0" layoutY="232.0" prefHeight="302.0" prefWidth="132.0" style="-fx-border-width: 2px; -fx-border-color: black;" />
+      <Pane fx:id="pane3" layoutX="363.0" layoutY="232.0" prefHeight="302.0" prefWidth="132.0" style="-fx-border-width: 2px; -fx-border-color: black;" />
+      <Label fx:id="category1" alignment="CENTER" layoutX="36.0" layoutY="545.0" prefHeight="30.0" prefWidth="132.0" text="Category">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="category2" alignment="CENTER" layoutX="208.0" layoutY="545.0" prefHeight="30.0" prefWidth="132.0" text="Category">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="category3" alignment="CENTER" layoutX="379.0" layoutY="545.0" prefHeight="30.0" prefWidth="132.0" text="Category">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="message" alignment="CENTER" layoutX="98.0" layoutY="139.0" prefHeight="62.0" prefWidth="426.0" text="Message">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+

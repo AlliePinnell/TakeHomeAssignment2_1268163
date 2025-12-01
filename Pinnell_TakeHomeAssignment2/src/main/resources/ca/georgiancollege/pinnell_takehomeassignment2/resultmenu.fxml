@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.pinnell_takehomeassignment2.ResultMenuController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#474747" height="53.0" layoutY="351.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcWidth="5.0" fill="#dddddd" height="5.0" layoutX="-1.0" layoutY="351.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="25.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="53.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="83.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="111.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="141.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="169.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="199.0" layoutY="-1.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="227.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="255.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="283.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="313.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="341.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="371.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="399.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="429.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="457.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="488.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="516.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="546.0" layoutY="-2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="405.0" layoutX="574.0" layoutY="-3.0" stroke="TRANSPARENT" strokeType="INSIDE" width="3.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c3c3" height="92.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#696969" height="79.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="47.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Polygon fill="#c3c3c3" layoutX="282.0" layoutY="180.0" points="-4.000030517578125, -180.00001525878906, 29.999969482421875, -180.00003051757812, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#3a3a3a" layoutX="275.0" layoutY="180.0" points="-275.0, -180.0, 29.999969482421875, -180.00003051757812, -40.66664123535156, -100.99999237060547, -275.0, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="258.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="212.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="164.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="118.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="71.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#c2c2c252" layoutX="25.0" layoutY="180.0" points="-25.833328247070312, -149.1667022705078, 3.33331298828125, -149.1667022705078, -40.66664123535156, -100.99999237060547, -72.66664123535156, -101.00000762939453" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-9.0" layoutY="117.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-8.0" layoutY="147.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-8.0" layoutY="177.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-9.0" layoutY="208.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-8.0" layoutY="238.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-8.0" layoutY="268.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-10.0" layoutY="296.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-9.0" layoutY="326.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-9.0" layoutY="356.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-10.0" layoutY="367.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000054" height="4.0" layoutX="-9.0" layoutY="397.0" stroke="TRANSPARENT" strokeType="INSIDE" width="608.0" />
+      <Text fx:id="gamemodeText" fill="RED" layoutX="102.0" layoutY="23.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 2;" text="GAME MODE" wrappingWidth="190.80331802368164">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="379.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-scale-x: 0.8;" text="RESULTS" wrappingWidth="161.51110935211182">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#7575758c" layoutX="319.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T O T A L" wrappingWidth="280.37115478515625">
+         <font>
+            <Font name="System Bold" size="66.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="67.0" layoutY="143.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="SCORE" wrappingWidth="88.35895156860352">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="32.0" layoutY="204.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="CORRECT" wrappingWidth="132.53842735290527">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="4.0" layoutY="265.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="INCORRECT" wrappingWidth="153.99991607666016">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="26.0" layoutY="323.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="TIME LEFT" wrappingWidth="153.99991607666016">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button fx:id="again" layoutX="351.0" layoutY="172.0" mnemonicParsing="false" onAction="#playAgain" prefHeight="39.0" prefWidth="194.0" style="-fx-background-color: white;" text="PLAY AGAIN">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="backtoMenu" layoutX="351.0" layoutY="230.0" mnemonicParsing="false" onAction="#openMainMenu" prefHeight="39.0" prefWidth="194.0" style="-fx-background-color: black;" text="BACK TO MENU" textFill="RED">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Text fx:id="scoreText" fill="#ff5bde" layoutX="199.0" layoutY="134.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 1; -fx-scale-y: 2;" text="0000" wrappingWidth="62.5811653137207">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="correctText" fill="#ff5bde" layoutX="199.0" layoutY="196.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 1; -fx-scale-y: 2;" text="0000" wrappingWidth="62.5811653137207">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="incorrectText" fill="#ff5bde" layoutX="199.0" layoutY="255.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 1; -fx-scale-y: 2;" text="0000" wrappingWidth="62.5811653137207">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="timeleftText" fill="#ff5bde" layoutX="199.0" layoutY="315.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 1; -fx-scale-y: 2;" text="00000000" wrappingWidth="232.58110427856445">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fx:id="difficultyText" fill="WHITE" layoutX="427.0" layoutY="361.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-scale-x: 1; -fx-scale-y: 2;" text="DIFFIC" wrappingWidth="113.99993133544922">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
