@@ -533,6 +533,7 @@ public class DragAndDropController {
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
                     comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 2:
@@ -547,6 +548,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 3:
@@ -561,6 +564,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
         }
@@ -581,6 +586,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 2:
@@ -595,6 +602,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 3:
@@ -609,6 +618,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Error");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
         }
@@ -633,6 +644,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Hit!");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 2:
@@ -648,6 +661,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Hit!");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
             case 3:
@@ -662,6 +677,8 @@ public class DragAndDropController {
                     incorrectSound.play();
                     splashMessage("Hit!");
                     numOfIncorrectAnswers++;
+                    comboCounter = 0;
+                    combo.setText(String.valueOf(comboCounter));
                 }
                 break;
         }
