@@ -111,10 +111,6 @@ public class DragAndDropController {
 
     @FXML
     private void startNew(ActionEvent event) {
-        game.stop();
-        game2.stop();
-        game3.stop();
-
         if (timelineRunTimer != null) timelineRunTimer.stop();
         if (timelineGameOver != null) timelineGameOver.stop();
         if (timelineRemoveMessage != null) timelineRemoveMessage.stop();
@@ -238,7 +234,7 @@ public class DragAndDropController {
                 }
 
                 int currentSecond = (int) currentTime;
-                if (currentSecond < lastSecond && currentTime % 1.0 > 0.9) {
+                if (currentSecond < lastSecond) {
                     tickSound.play();
                     lastSecond = currentSecond;
                 }
