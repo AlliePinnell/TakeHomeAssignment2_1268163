@@ -184,11 +184,11 @@ public class DragAndDropController {
 
     public void musicController(){
         if (difficulty.equals("Easy"))
-            game.play();
+            game3.play();
         else if (difficulty.equals("Medium"))
             game2.play();
         else
-            game3.play();
+            game.play();
     }
 
     public void clearScoreboard(){
